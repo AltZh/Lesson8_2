@@ -1,0 +1,8 @@
+Соединяем облачный репозиторий и локальный
+git remote add origin https://github.com/AltZh/Lesson8_2.git
+git config --global user.name "AltZh"
+git config --global user.email "....@...."
+git remote -v -- покажет настройку облачного репозитория
+
+git branch -M main
+git push -u origin main
